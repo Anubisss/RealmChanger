@@ -60,10 +60,10 @@ namespace RealmChanger
             this.selectedWtfLocationLabel = new System.Windows.Forms.Label();
             this.startClientButton = new System.Windows.Forms.Button();
             this.menuHelp = new System.Windows.Forms.MenuStrip();
-            this.fajlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kilepesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAbout = new System.Windows.Forms.ToolStripMenuItem();
-            this.nevjegyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.clientPathToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.realmListGroupBox = new System.Windows.Forms.GroupBox();
             this.wtfGroupBox = new System.Windows.Forms.GroupBox();
@@ -199,7 +199,7 @@ namespace RealmChanger
             // menuHelp
             // 
             this.menuHelp.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fajlToolStripMenuItem,
+            this.fileToolStripMenuItem,
             this.menuAbout});
             this.menuHelp.Location = new System.Drawing.Point(0, 0);
             this.menuHelp.Name = "menuHelp";
@@ -210,33 +210,33 @@ namespace RealmChanger
             // 
             // fajlToolStripMenuItem
             // 
-            this.fajlToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kilepesToolStripMenuItem});
-            this.fajlToolStripMenuItem.Name = "fajlToolStripMenuItem";
-            this.fajlToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fajlToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fajlToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
             // 
             // kilepesToolStripMenuItem
             // 
-            this.kilepesToolStripMenuItem.Name = "kilepesToolStripMenuItem";
-            this.kilepesToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
-            this.kilepesToolStripMenuItem.Text = "Exit";
-            this.kilepesToolStripMenuItem.Click += new System.EventHandler(this.kilepesToolStripMenuItem_Click);
+            this.exitToolStripMenuItem.Name = "kilepesToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.kilepesToolStripMenuItem_Click);
             // 
             // menuAbout
             // 
             this.menuAbout.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nevjegyToolStripMenuItem1});
+            this.aboutToolStripMenuItem1});
             this.menuAbout.Name = "menuAbout";
             this.menuAbout.Size = new System.Drawing.Size(44, 20);
             this.menuAbout.Text = "Help";
             // 
             // nevjegyToolStripMenuItem1
             // 
-            this.nevjegyToolStripMenuItem1.Name = "nevjegyToolStripMenuItem1";
-            this.nevjegyToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
-            this.nevjegyToolStripMenuItem1.Text = "About";
-            this.nevjegyToolStripMenuItem1.Click += new System.EventHandler(this.nevjegyToolStripMenuItem1_Click);
+            this.aboutToolStripMenuItem1.Name = "nevjegyToolStripMenuItem1";
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem1.Text = "About";
+            this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.nevjegyToolStripMenuItem1_Click);
             // 
             // realmListGroupBox
             // 
@@ -346,12 +346,12 @@ namespace RealmChanger
         private System.Windows.Forms.Button startClientButton;
         private System.Windows.Forms.MenuStrip menuHelp;
         private System.Windows.Forms.ToolStripMenuItem menuAbout;
-        private System.Windows.Forms.ToolStripMenuItem nevjegyToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
         private System.Windows.Forms.ToolTip clientPathToolTip;
         private System.Windows.Forms.GroupBox realmListGroupBox;
         private System.Windows.Forms.GroupBox wtfGroupBox;
-        private System.Windows.Forms.ToolStripMenuItem fajlToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kilepesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label newRealmAddressLabel;
         private System.Windows.Forms.Button addRealmbutton;
         private System.Windows.Forms.Label statusLabel;
