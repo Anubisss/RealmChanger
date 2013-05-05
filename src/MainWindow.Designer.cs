@@ -46,6 +46,7 @@ namespace RealmChanger
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.newRealmButton = new System.Windows.Forms.Button();
             this.realmListComboBox = new System.Windows.Forms.ComboBox();
             this.deleteRealmButton = new System.Windows.Forms.Button();
@@ -218,7 +219,7 @@ namespace RealmChanger
             // kilepesToolStripMenuItem
             // 
             this.kilepesToolStripMenuItem.Name = "kilepesToolStripMenuItem";
-            this.kilepesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.kilepesToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.kilepesToolStripMenuItem.Text = "Exit";
             this.kilepesToolStripMenuItem.Click += new System.EventHandler(this.kilepesToolStripMenuItem_Click);
             // 
@@ -233,7 +234,7 @@ namespace RealmChanger
             // nevjegyToolStripMenuItem1
             // 
             this.nevjegyToolStripMenuItem1.Name = "nevjegyToolStripMenuItem1";
-            this.nevjegyToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.nevjegyToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.nevjegyToolStripMenuItem1.Text = "About";
             this.nevjegyToolStripMenuItem1.Click += new System.EventHandler(this.nevjegyToolStripMenuItem1_Click);
             // 
@@ -312,6 +313,7 @@ namespace RealmChanger
             this.Controls.Add(this.realmListGroupBox);
             this.Controls.Add(this.menuHelp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
